@@ -1,0 +1,102 @@
+{
+  "goods": [
+    {
+      "id": 1,
+      "image": "product_images/Layer%2043.jpg",
+      "name": "Mango  People  T-shirt",
+      "color": "Multy",
+      "size": "М",
+      "price": 52,
+      "store": 10,
+      "shipping": "Free",
+      "quantity": 2
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "image": "product_images/Layer%2043.jpg",
+      "name": "Mango  People  T-shirt",
+      "color": "Multy",
+      "size": "М",
+      "price": 52,
+      "store": 10,
+      "shipping": "Free",
+      "quantity": "10"
+    }
+  ],
+  "review": [
+    {
+      "text": "Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium",
+      "userId": 780,
+      "id": 1,
+      "step": 2,
+      "action": "show"
+    },
+    {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At debitis excepturi illo saepe ullam.",
+      "userId": 173,
+      "id": 2,
+      "step": 2,
+      "action": "show"
+    },
+    {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At debitis excepturi illo saepe ullam.",
+      "userId": 174,
+      "id": 4,
+      "step": 2,
+      "action": "show"
+    },
+    {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At debitis excepturi illo saepe ullam.",
+      "userId": 176,
+      "id": 10,
+      "step": 2,
+      "action": "show"
+    },
+    {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At debitis excepturi illo saepe ullam.",
+      "userId": 178,
+      "id": 45,
+      "step": 2,
+      "action": "show"
+    },
+    {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At debitis excepturi illo saepe ullam.",
+      "userId": 179,
+      "id": 84,
+      "step": 2,
+      "action": "show"
+    },
+    {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At debitis excepturi illo saepe ullam.",
+      "userId": 134,
+      "id": 67,
+      "step": 2,
+      "action": "show"
+    },
+    {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At debitis excepturi illo saepe ullam.",
+      "userId": 134,
+      "id": 123,
+      "step": 2,
+      "action": "show"
+    }
+  ],
+  "profile": [
+    {
+      "id": 1,
+      "userId": 780,
+      "photo": "images/Layer%2040.png",
+      "name": "Burhan, Bin ",
+      "location": "Dhaka, Bd",
+      "gender": "Female",
+      "login": "Burhan@inbox.com",
+      "password": "kuku104793",
+      "email": "Burhan@inbox.com",
+      "phone": "+76543456222",
+      "card": "1234-1234-1234-1234"
+    }
+  ],
+  "enter": []
+}
