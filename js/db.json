@@ -1,0 +1,311 @@
+{
+  "goods": [
+    {
+      "id": 1,
+      "image": "product_images/Layer2.jpg",
+      "name": "Mango  People  T-shirt",
+      "color": "Multi",
+      "size": "М",
+      "price": 52,
+      "store": 10,
+      "shipping": "Free",
+      "gender": "man"
+    },
+    {
+      "id": 2,
+      "image": "product_images/Layer3.jpg",
+      "name": "Mango  People  T-shirt",
+      "color": "Multi",
+      "size": "М",
+      "price": 52,
+      "store": 10,
+      "shipping": "Free",
+      "gender": "woman"
+    },
+    {
+      "id": 3,
+      "image": "product_images/Layer4.jpg",
+      "name": "Mango  People  T-shirt",
+      "color": "Multi",
+      "size": "М",
+      "price": 52,
+      "store": 10,
+      "shipping": "Free",
+      "gender": "man"
+    },
+    {
+      "id": 4,
+      "image": "product_images/Layer5.jpg",
+      "name": "Mango  People  T-shirt",
+      "color": "Multi",
+      "size": "М",
+      "price": 52,
+      "store": 10,
+      "shipping": "Free",
+      "gender": "woman"
+    },
+    {
+      "id": 5,
+      "image": "product_images/Layer6.jpg",
+      "name": "Mango  People  T-shirt",
+      "color": "Multi",
+      "size": "М",
+      "price": 52,
+      "store": 10,
+      "shipping": "Free",
+      "gender": "woman"
+    },
+    {
+      "id": 6,
+      "image": "product_images/Layer7.jpg",
+      "name": "Mango  People  T-shirt",
+      "color": "Multi",
+      "size": "М",
+      "price": 52,
+      "store": 10,
+      "shipping": "Free",
+      "gender": "man"
+    },
+    {
+      "id": 7,
+      "image": "product_images/Layer8.jpg",
+      "name": "Mango  People  T-shirt",
+      "color": "Multi",
+      "size": "М",
+      "price": 52,
+      "store": 10,
+      "shipping": "Free",
+      "gender": "man"
+    },
+    {
+      "id": 8,
+      "image": "product_images/Layer9.jpg",
+      "name": "Mango  People  T-shirt",
+      "color": "Multi",
+      "size": "М",
+      "price": 52,
+      "store": 10,
+      "shipping": "Free",
+      "gender": "man"
+    },
+    {
+      "id": 9,
+      "image": "product_images/Layer43.jpg",
+      "name": "Mango  People  T-shirt",
+      "color": "Multi",
+      "size": "М",
+      "price": 52,
+      "store": 10,
+      "shipping": "Free",
+      "gender": "man"
+    },
+    {
+      "id": 10,
+      "image": "product_images/Layer44.jpg",
+      "name": "Mango  People  T-shirt",
+      "color": "Multi",
+      "size": "М",
+      "price": 52,
+      "store": 10,
+      "shipping": "Free",
+      "gender": "man"
+    },
+    {
+      "id": 11,
+      "image": "product_images/Layer4.jpg",
+      "name": "Mango  People  T-shirt",
+      "color": "Multi",
+      "size": "М",
+      "price": 52,
+      "store": 10,
+      "shipping": "Free",
+      "gender": "man"
+    },
+    {
+      "id": 12,
+      "image": "product_images/Layer45.png",
+      "name": "Mango  People  T-shirt",
+      "color": "Multi",
+      "size": "М",
+      "price": 52,
+      "store": 10,
+      "shipping": "Free",
+      "gender": "man"
+    },
+    {
+      "id": 13,
+      "image": "product_images/Layer46.jpg",
+      "name": "Mango  People  T-shirt",
+      "color": "Multi",
+      "size": "М",
+      "price": 52,
+      "store": 10,
+      "shipping": "Free",
+      "gender": "man"
+    },
+    {
+      "id": 14,
+      "image": "product_images/Layer47.png",
+      "name": "Mango  People  T-shirt",
+      "color": "Multy",
+      "size": "М",
+      "price": 52,
+      "store": 10,
+      "shipping": "Free",
+      "gender": "man"
+    },
+    {
+      "id": 15,
+      "image": "product_images/Layer48.jpg",
+      "name": "Mango  People  T-shirt",
+      "color": "Multy",
+      "size": "М",
+      "price": 52,
+      "store": 10,
+      "shipping": "Free",
+      "gender": "man"
+    },
+    {
+      "id": 16,
+      "image": "product_images/Layer49.jpg",
+      "name": "Mango  People  T-shirt",
+      "color": "Multi",
+      "size": "М",
+      "price": 52,
+      "store": 10,
+      "shipping": "Free",
+      "gender": "man"
+    },
+    {
+      "id": 17,
+      "image": "product_images/Layer50.png",
+      "name": "Mango  People  T-shirt",
+      "color": "Multi",
+      "size": "М",
+      "price": 52,
+      "store": 10,
+      "shipping": "Free",
+      "gender": "man"
+    },
+    {
+      "id": 18,
+      "image": "product_images/Layer50.png",
+      "name": "Mango  People  T-shirt",
+      "color": "Multi",
+      "size": "М",
+      "price": 52,
+      "store": 10,
+      "shipping": "Free",
+      "gender": "man"
+    }
+  ],
+  "cart": [
+    {
+      "id": "1",
+      "image": "product_images/Layer2.jpg",
+      "name": "Mango  People  T-shirt",
+      "color": "Multi",
+      "size": "М",
+      "price": "52",
+      "store": "10",
+      "shipping": "Free",
+      "quantity": 5
+    },
+    {
+      "id": "3",
+      "image": "product_images/Layer4.jpg",
+      "name": "Mango  People  T-shirt",
+      "color": "Multi",
+      "size": "М",
+      "price": "52",
+      "store": "10",
+      "shipping": "Free",
+      "quantity": 8
+    },
+    {
+      "id": "6",
+      "image": "product_images/Layer7.jpg",
+      "name": "Mango  People  T-shirt",
+      "color": "Multi",
+      "size": "М",
+      "price": 52,
+      "store": 10,
+      "shipping": "Free",
+      "quantity": 3
+    }
+  ],
+  "review": [
+    {
+      "text": "Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium",
+      "userId": 780,
+      "id": 1,
+      "step": 2,
+      "action": "show"
+    },
+    {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At debitis excepturi illo saepe ullam.",
+      "userId": 173,
+      "id": 2,
+      "step": 2,
+      "action": "show"
+    },
+    {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At debitis excepturi illo saepe ullam.",
+      "userId": 174,
+      "id": 4,
+      "step": 2,
+      "action": "show"
+    },
+    {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At debitis excepturi illo saepe ullam.",
+      "userId": 176,
+      "id": 10,
+      "step": 2,
+      "action": "show"
+    },
+    {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At debitis excepturi illo saepe ullam.",
+      "userId": 178,
+      "id": 45,
+      "step": 2,
+      "action": "show"
+    },
+    {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At debitis excepturi illo saepe ullam.",
+      "userId": 179,
+      "id": 84,
+      "step": 2,
+      "action": "show"
+    },
+    {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At debitis excepturi illo saepe ullam.",
+      "userId": 134,
+      "id": 67,
+      "step": 2,
+      "action": "show"
+    },
+    {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At debitis excepturi illo saepe ullam.",
+      "userId": 134,
+      "id": 123,
+      "step": 2,
+      "action": "show"
+    }
+  ],
+  "profile": [
+    {
+      "id": 1,
+      "userId": 780,
+      "photo": "images/Layer%2040.png",
+      "name": "Burhan, Bin ",
+      "location": "Dhaka, Bd",
+      "gender": "Female",
+      "login": "Burhan@inbox.com",
+      "password": "kuku104793",
+      "email": "Burhan@inbox.com",
+      "phone": "+76543456222",
+      "card": "1234-1234-1234-1234"
+    }
+  ],
+  "enter": []
+}

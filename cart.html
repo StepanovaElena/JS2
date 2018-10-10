@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+    <script src="js/authoration.js"></script>
+    <script src="js/review.js"></script>
+    <script src="js/cart.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="main_container">
+        <div class="main">
+            <div class="reg-hover">
+                <div class="reg-flex">
+                    <form id="msform" action="">
+                        <fieldset>
+                            <h2 class="fs-title">Create your account</h2>
+                            <input type="text" name="email" data-validation-rule="email" required placeholder="Email">
+                            <input type="password" name="pass" data-validation-rule="pass"  required placeholder="Password">
+                            <input type="password" name="cpass" data-validation-rule="cpass" required placeholder="Confirm Password">
+                            <input type="text" name="fname" data-validation-rule="fname" required placeholder="First Name">
+                            <input type="text" name="lname" data-validation-rule="lname" required placeholder="Last Name">
+                            <select class ="gender">
+                                <option value="Male">Male</option>
+                                <option value="Fmale">Female</option>
+                            </select>
+                            <input type="text" name="phone" data-validation-rule="phone" placeholder="Phone: +7(777)777-7777 ">
+                            <input type="text" name="cardnumber" data-validation-rule="cardnumber" placeholder="Сard number: xxxx-xxxx-xxxx-xxxx">
+                            <button id ="reg-submit" class="reg-button action-button" value="Send">Submit</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+            <header class="header">
+                <div class="container header-flex">
+                    <div class="header-left">
+                        <a class="logo" href="index.html"><img src="images/Logo.png" alt="LOGO">BRAN<span class="pink">D</span></a>
+                        <form action="#">
+                            <button class="browse"><span>Browse</span>
+                            <div class="browse-menu">
+                            <div class="brows-content">
+                            <h3>women</h3>
+                            <ul class="browse-inside">
+                                <li><a href="#">Dresses</a></li>
+                                <li><a href="#">Tops</a></li>
+                                <li><a href="#">Sweaters/Knits</a></li>
+                                <li><a href="#">Jackets/Coats</a></li>
+                                <li><a href="#">Blazers</a></li>
+                                <li><a href="#">Denim</a></li>
+                                <li><a href="#">Leggings/Pants</a></li>
+                                <li><a href="#">Skirts/Shorts</a></li>
+                                <li><a href="#">Accessories</a></li> 
+                                <li><a href="#">Bags/Purses</a></li>
+                                <li><a href="#">Swimwear/Underwear</a></li>
+                                <li><a href="#">Nightwear</a></li>
+                                <li><a href="#">Shoes</a></li>
+                                <li><a href="#">Beauty</a></li>
+                            </ul>
+                            <h3>men</h3>
+                            <ul class="browse-inside">
+                                <li><a href="#">Tees/Tank tops</a></li>
+                                <li><a href="#">Shirts/Polos</a></li>
+                                <li><a href="#">Sweaters</a></li>
+                                <li><a href="#">Sweatshirts/Hoodies</a></li>
+                                <li><a href="#">Blazers</a></li>
+                                <li><a href="#">Jackets/vests</a></li>
+                            </ul>
+                            </div>
+                            </div>
+                            </button>
+                            <input class="search" type="search" placeholder="Search for Item...">
+                            <button class="submit" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                        </form>
+                    </div>
+                    <div class="header-right">
+                        <div class="account-hover">
+                            <div class="account-flex">
+                                <div class="account-menu">
+                                    <div class="triangle account-triangle"></div>
+                                    <div class="form">
+                                        <h4 class="gest-h4">Already registed?</h4>
+                                        <p class="gest-p reg-margin">Please log in below </p>
+                                        <form class="reg-form" action="#" method="POST">
+                                            <label for="siteLogin" class="lable-email gest-h4 reg-h4-margin">EMAIL ADDRESS <span>*</span></label>
+                                            <input class="account-input" type="email" name="login" id="siteLogin" placeholder="Please, enter your login">
+                                            <label for="sitePass" class="label-pass gest-h4 reg-h4-margin">PASSWORD <span>*</span></label>
+                                            <input class="account-input" type="password" name="password" id="sitePass" placeholder="Please, enter your password">
+                                            <p class="reg-span account-reg-span"><span>* Required Fileds</span></p>
+                                            <button class="reg-button account-reg-button" id="login-button" value="Send">Login now</button>
+                                        </form>
+                                        <a class="reg-a account-reg-a" id="reg-link" href="#">Registration</a>
+                                        <a class="reg-a account-reg-a" href="#">Forgot Password ?</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user-flex">
+                            <div class="user-menu">
+                                <div class="triangle account-triangle"></div>
+                            </div>
+                        </div>
+                        <div class="cart-hover">
+                            <div class="cart-flex">
+                                <div class="cart-menu">
+                                    <div class="triangle cart-menu-triangle"></div>
+                                    <h2>TOTAL</h2>
+                                    <a class="menu-checkout-button" href="checkout.html">Checkout</a>
+                                    <a class="menu-cart-button" href="cart.html">Go to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header-cart-button">
+                            <div class="cart-quantity-circle"></div>
+                            <a href="cart.html"><img src="images/Forma%201.svg" alt="Cart"></a>
+                        </div>
+                        <div class="account-button">
+                            <a id="my-account" class="my-account" href="#">My Account<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="second-nav-part">
+                <nav class="navigation">
+                    <div class="container nav">
+                        <ul class="menu">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a class="chosed" href="product.html">Man</a>
+                                <div class="mega">
+                                    <div class="triangle"></div>
+                                    <div class="mega-flex">
+                                        <h3>Women</h3>
+                                        <ul>
+                                            <li><a href="#">Dresses</a></li>
+                                            <li><a href="#">Tops</a></li>
+                                            <li><a href="#">Sweaters/Knits</a></li>
+                                            <li><a href="#">Jackets/Coats</a></li>
+                                            <li><a href="#">Blazers</a></li>
+                                            <li><a href="#">Denim</a></li>
+                                            <li><a href="#">Leggings/Pants</a></li>
+                                            <li><a href="#">Skirts/Shorts</a></li>
+                                            <li><a href="#">Accessories</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega-flex">
+                                        <h3>Women</h3>
+                                        <ul>
+                                            <li><a href="#">Dresses</a></li>
+                                            <li><a href="#">Tops</a></li>
+                                            <li><a href="#">Sweaters/Knits</a></li>
+                                            <li><a href="#">Jackets/Coats</a></li>
+                                        </ul>
+                                        <h3 class="mr-title">Women</h3>
+                                        <ul>
+                                            <li><a href="#">Dresses</a></li>
+                                            <li><a href="#">Tops</a></li>
+                                            <li><a href="#">Sweaters/Knits</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega-flex">
+                                        <h3>Women</h3>
+                                        <ul>
+                                            <li><a href="#">Dresses</a></li>
+                                            <li><a href="#">Tops</a></li>
+                                            <li><a href="#">Sweaters/Knits</a></li>
+                                            <li><a href="#">Jackets/Coats</a></li>
+                                        </ul>
+                                        <div class="img-menu">
+                                            <h3 class="img-menu-text">Super</h3>
+                                            <h3 class="img-menu-text">Sale!</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a href="#">Women</a></li>
+                            <li><a href="#">Kids</a></li>
+                            <li><a href="#">Accoseriese</a></li>
+                            <li><a href="#">Featured</a></li>
+                            <li><a href="#">Hot Deals</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="container nav-title">
+                    <h2>New Arrivals</h2>
+                    <nav>
+                        <ul class="crumbs">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="product.html">Men</a></li>
+                            <li><a href="#">New Arrivals</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="main-part">
+                <div class="container table-position">
+                    <table class="table">
+                        <thead class="table-header">
+                            <tr>
+                                <th scope="col">Product Details</th>
+                                <th scope="col">unite Price</th>
+                                <th scope="col">Quantity</th>
+                                <th scope="col">shipping</th>
+                                <th scope="col">Subtotal</th>
+                                <th scope="col">ACTION</th>
+                            </tr>
+                        </thead>
+                        <tbody id="cart">
+                        </tbody>
+                    </table>
+                    <footer class="cart-footer">
+                        <div class="cart-button">
+                            <button>cLEAR SHOPPING CART</button>
+                            <a href="#">cONTINUE sHOPPING</a>
+                        </div>
+                        <div class="cart-form">
+                            <div class="address-form">
+                                <h4>Shipping Adress</h4>
+                                <form action="#">
+                                    <select class="country" name="Contry">
+                                       <option value="Country">Select Country...</option>
+                                       <option value="Bangladesh">Bangladesh</option>
+                                       <option value="USA">USA</option>
+                                   </select>
+                                    <label><input type="text" placeholder="State"></label>
+                                    <label><input type="text" placeholder="Postcode / Zip"></label>
+                                    <button class="quote-button">get a quote</button>
+                                </form>
+                            </div>
+                            <div class="discount-form">
+                                <h4>coupon discount</h4>
+                                <p>Enter your coupon code if you have one</p>
+                                <label><input type="text" placeholder="State"></label>
+                                <button class="apply-button">Apply coupon</button>
+                            </div>
+                            <div class="cart-total" id="cart-total">
+                                <h5>Sub Total</h5>
+                                <h4>GRAND TOTAL</h4>
+                                <a href="checkout.html"><button class="proceed-button">proceed to checkout</button></a>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+
+        </div>
+        <footer class="footer">
+            <div class="subscribe-part">
+                <div class=font-opacity></div>
+                <div class="container subscribe">
+                    <div id="block-for-slider">
+                        <div id="viewport">
+                            <div id="slidewrapper"></div>
+                            <div id="nav-btns" class="slider"></div>
+                        </div>
+                    </div>
+                    <div class="mailto">
+                        <h3>Subscribe</h3>
+                        <h4>OR OUR NEWLETTER AND PROMOTION</h4>
+                        <form action="#">
+                            <input type="email" placeholder="Enter Your Email">
+                            <button>Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-part">
+                <div class="container footer-nav">
+                    <div class="dicribe">
+                        <a class="logo" href="index.html"><img src="images/Logo.png" alt="Logo">BRAN<span class="pink">D</span></a>
+                        <p>Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.</p>
+                        <p>Efficiently plagiarize 24/365 action items and focused infomediaries. Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
+                    </div>
+                    <div class="site-nav">
+                        <nav class="company">
+                            <h4>COMPANY</h4>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="#">Shop</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">How It Works</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </nav>
+                        <nav class="info">
+                            <h4>INFORMATION</h4>
+                            <ul>
+                                <li><a href="#">Tearms &amp; Condition</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">How to Buy</a></li>
+                                <li><a href="#">How to Sell</a></li>
+                                <li><a href="#">Promotion</a></li>
+                            </ul>
+                        </nav>
+                        <nav class="catigory">
+                            <h4>SHOP CATEGORY</h4>
+                            <ul>
+                                <li><a href="product.html">Men</a></li>
+                                <li><a href="#">Women</a></li>
+                                <li><a href="#">Child</a></li>
+                                <li><a href="#">Apparel</a></li>
+                                <li><a href="#">Brows All</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="pins">
+                <div class="container pins-content">
+                    <p>&#169; 2017 Brand All Rights Reserved.</p>
+                    <div class="pins-nav">
+                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+        </footer>
+    </div>
+</body>
+
+</html>
